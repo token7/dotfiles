@@ -123,6 +123,5 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
-source "/home/masami/.sdkman/bin/sdkman-init.sh"
 eval "$(starship init bash)"
 
